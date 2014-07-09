@@ -6,7 +6,7 @@ if ($lastDigit == '0' || $lastDigit == '1' || $lastDigit == '4'||$lastDigit == '
 } else if ($lastDigit == '2') {
 	return $input.'<sup>nd</sup>';
 } else if ($lastDigit == '3') {
-	return $input.'rd';
+	return $input.'<sup>rd</sup>';
 }
 
 return $input;
